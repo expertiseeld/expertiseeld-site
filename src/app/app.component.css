@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #7CB9E8;
+}
+
+header {
+    background-color: #00308F;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #00308F;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
